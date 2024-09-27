@@ -2,9 +2,57 @@ body {
   background-color: coral;
 }
 
+.card {
+  background-color: aliceblue;
+  max-width: 300px;
+  border: 2px solid transparent;
+  margin: 32px auto;
+  padding: 24px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px;
+}
+
+.card-1 {
+  border-color: rgb(246, 255, 127);
+}
+
+.card-2 {
+  border-color: rgb(127, 206, 255);
+}
+
 .icon {
   width: 50px;
   height: 50px;
-  background-color: cadetblue;
   border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background-color: chartreuse;
+}
+
+.card-2 .icon {
+  background-color: cadetblue;
+}
+
+.btn {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-color: transparent;
+}
+
+.btn-1 {
+  color: bisque;
+  background-color: brown;
+  border-color: darkorange;
+}
+
+.btn-2 {
+  color: aqua;
+  background-color: darksalmon;
+  border-color: aquamarine;
 }
