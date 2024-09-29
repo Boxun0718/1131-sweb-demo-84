@@ -1,0 +1,12 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  background-color: chocolate;
+  max-width: 600px;
+  width: 80%;
+  margin: 30px auto;
+  border: 2px solid blue;
+  padding: 16px 30px 24px 30px;
+}
