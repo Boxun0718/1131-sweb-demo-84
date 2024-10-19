@@ -90,3 +90,21 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+@media screen and (min-width: 1050px) {
+  .blogs-center {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .blogs-center {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .blogs-center {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
