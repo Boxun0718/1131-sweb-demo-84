@@ -38,11 +38,11 @@ body {
 
 .btn {
   text-transform: capitalize;
-  font-size: 0.8rem;
+  font-size: 1=0.8rem;
   font-weight: 600;
   padding: 8px 12px;
   border-radius: 6px;
-  border-color: transparent;
+  border-color: aqua;
 }
 
 .btn-1 {
