@@ -1,0 +1,61 @@
+.TicTacToe {
+  background-color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.TicTacToe h2 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.TicTacToe .board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.TicTacToe .board li {
+  margin: 10px;
+  width: 90px;
+  height: 70px;
+  font-size: 40px;
+  font-weight: 800;
+  background: #333;
+  color: #ccc;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.TicTacToe .board li:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+.TicTacToe .board .o {
+  color: green;
+}
+.TicTacToe .board .x {
+  color: red;
+}
+.TicTacToe footer {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+.TicTacToe .reset {
+  background-color: #444;
+  color: #fff;
+  padding: 15px;
+  width: 75%;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.TicTacToe .reset:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=TicTacToe_84.css.map */
