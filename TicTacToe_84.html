@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
       integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/megaMenu.css" />
-    <link rel="stylesheet" href="./css/classdemo_84.css" />
-    <title>Mega and Dropdown Menu</title>
+    <link rel="stylesheet" href="./css/TicTacToe_84.css" />
+    <title>Navbar Demo</title>
   </head>
   <body>
     <header class="header">
@@ -26,26 +26,21 @@
         </div>
         <div class="header-right">
           <ul class="main-menu">
-            <li class="menu-item"><a href="#" class="active">Home</a></li>
+            <li class="menu-item">
+              <a href="./index.html" class="active">ClassDemo</a>
+            </li>
 
             <li class="menu-item mega-menu">
-              <a href="#">Class Demo +</a>
+              <a href="#">Megamenu +</a>
               <div class="mega-menu-wrapper slideInUp">
                 <div class="mega-menu-col">
-                  <h5>W1~W7</h5>
+                  <h5>Menu block 1</h5>
                   <ul class="mega-sub-menu">
-                    <li onclick="showClassDemo('w02_intro_84')">
-                      <a href="#">w02_intro_84</a>
-                    </li>
-                    <li onclick="showClassDemo('w03_card_84')">
-                      <a href="#">w03_card_84</a>
-                    </li>
-                    <li onclick="showClassDemo('w06_blog_84')">
-                      <a href="#">w06_blog_84</a>
-                    </li>
-                    <li onclick="showClassDemo('w07_84')">
-                      <a href="#">w07_84</a>
-                    </li>
+                    <li><a href="#">Menu block item 1</a></li>
+                    <li><a href="#">Menu block item 2</a></li>
+                    <li><a href="#">Menu block item 3</a></li>
+                    <li><a href="#">Menu block item 4</a></li>
+                    <li><a href="#">Menu block item 5</a></li>
                   </ul>
                 </div>
                 <div class="mega-menu-col">
@@ -86,7 +81,7 @@
               <div class="sub-menu-wrapper slideInUp">
                 <ul class="sub-menu">
                   <li class="menu-item">
-                    <a href="./TicTacToe_84.html">TicTacToe</a>
+                    <a href="./TicTacToe_84.html">Tictactoe</a>
                   </li>
                   <li class="menu-item"><a href="#">Service 2</a></li>
                   <li class="menu-item"><a href="#">Service 3</a></li>
@@ -165,10 +160,12 @@
             </li>
 
             <li class="menu-item dropdown">
-              <a href="#">Services +</a>
-              <div class="sub-menu-wrapper">
+              <a href="#">Multipage +</a>
+              <div class="sub-menu-wrapper slideInUp">
                 <ul class="sub-menu">
-                  <li class="menu-item"><a href="#">Service 1</a></li>
+                  <li class="menu-item">
+                    <a href="./TicTacToe_84.html">Tictactoe</a>
+                  </li>
                   <li class="menu-item"><a href="#">Service 2</a></li>
                   <li class="menu-item"><a href="#">Service 3</a></li>
                   <li class="menu-item"><a href="#">Service 4</a></li>
@@ -182,9 +179,26 @@
       </div>
     </header>
 
-    <section class="show-classdemo"></section>
+    <section class="TicTacToe">
+      <header>
+        <h2>TicTacToe</h2>
+      </header>
+      <ul class="board">
+        <li class="x">X</li>
+        <li class="o">O</li>
+        <li class="x">X</li>
+        <li class="o">O</li>
+        <li class="o">O</li>
+        <li class="x">X</li>
+        <li>+</li>
+        <li class="o">O</li>
+        <li>+</li>
+      </ul>
+      <footer>
+        <button class="reset">Reset Game</button>
+      </footer>
+    </section>
 
-    <script src="./js/classdemo_84.js"></script>
     <script src="./js/megaMenu.js"></script>
   </body>
 </html>
